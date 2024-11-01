@@ -1,0 +1,186 @@
+Command: vcs -full64 -sverilog +v2k -timescale=1ns/1ns -o uart_rx_tb -l compile.log \
+-cm line+cond+fsm+branch+tgl -cm_name uart_rx_tb -cm_dir ./uart_rx_tb.vdb -debug_pp \
+-Mupdate -LDFLAGS -rdynamic -P /home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/linux64/novas.tab \
+/home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/linux64/pli.a +notimingheck \
++nospecify -f ./filelist.f
+                         Chronologic VCS (TM)
+        Version O-2018.09-1_Full64 -- Tue May 28 12:13:55 2024
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Warning-[UNK_COMP_ARG] Unknown compile time plus argument used
+  Unknown compile time plus argument 'notimingheck' is ignored.
+
+ + use `+plusarg_save' to bind in runtime plusargs;
+ + use `+plusarg_ignore' to suppress this message.
+Parsing design file '../src/design/controler.v'
+Parsing design file '../src/design/fpga_top_with_uart.v'
+Parsing design file '../src/design/lenet/add.v'
+Parsing design file '../src/design/lenet/convPoo1.v'
+
+Warning-[TMR] Text macro redefined
+../src/design/lenet/convPoo1.v, 3
+  Text macro (DATA_SIZE) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: ../src/design/controler.v, 5.
+  Previous value: 8  
+
+
+Warning-[TMR] Text macro redefined
+../src/design/lenet/convPoo1.v, 4
+  Text macro (inputMapWidth) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: ../src/design/fpga_top_with_uart.v, 1.
+  Previous value: 6*6*8
+
+
+Warning-[TMR] Text macro redefined
+../src/design/lenet/convPoo1.v, 5
+  Text macro (inputWeightWidth) is redefined. The last definition will 
+  override previous ones.
+  Location of previous definition: ../src/design/controler.v, 3.
+  Previous value: 5*5*8
+
+
+Warning-[TMR] Text macro redefined
+../src/design/lenet/convPoo1.v, 8
+  Text macro (weightRam_addra_width) is redefined. The last definition will 
+  override previous ones.
+  Location of previous definition: ../src/design/controler.v, 8.
+  Previous value: 11 
+
+Parsing design file '../src/design/lenet/convPool2.v'
+
+Warning-[TMR] Text macro redefined
+../src/design/lenet/convPool2.v, 8
+  Text macro (halfword) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: ../src/design/lenet/convPoo1.v, 6.
+  Previous value: 16 
+
+Parsing design file '../src/design/lenet/conv_mul_add_array.v'
+Parsing design file '../src/design/lenet/fc.v'
+Parsing design file '../src/design/lenet/fcMacArray.v'
+Parsing design file '../src/design/lenet/fcRes_classify.v'
+Parsing design file '../src/design/lenet/lenetTop.v'
+
+Warning-[TMR] Text macro redefined
+../src/design/lenet/lenetTop.v, 6
+  Text macro (inputMapWidth) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: ../src/design/lenet/convPool2.v, 5.
+  Previous value: 6*6*8 
+
+
+Warning-[TMR] Text macro redefined
+../src/design/lenet/lenetTop.v, 7
+  Text macro (inputWeightWidth) is redefined. The last definition will 
+  override previous ones.
+  Location of previous definition: ../src/design/lenet/fc.v, 6.
+  Previous value: 5*5*8 
+
+Parsing design file '../src/design/lenet/mul.v'
+Parsing design file '../src/design/lenet/mul25_4convolutor.v'
+
+Warning-[TMR] Text macro redefined
+../src/design/lenet/mul25_4convolutor.v, 6
+  Text macro (inputMapWidth) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: ../src/design/lenet/lenetTop.v, 6.
+  Previous value: 6*6*8
+
+
+Warning-[TMR] Text macro redefined
+../src/design/lenet/mul25_4convolutor.v, 7
+  Text macro (inputWeightWidth) is redefined. The last definition will 
+  override previous ones.
+  Location of previous definition: ../src/design/lenet/lenetTop.v, 7.
+  Previous value: 5*5*8
+
+Parsing design file '../src/design/lenet/mul7_4.v'
+Parsing design file '../src/design/lenet/multi.v'
+Parsing design file '../src/design/lenet/reluPool.v'
+Parsing design file '../src/design/lenet/reluPoolcov2.v'
+
+Warning-[TMR] Text macro redefined
+../src/design/lenet/reluPoolcov2.v, 4
+  Text macro (halfword) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: ../src/design/lenet/reluPool.v, 5.
+  Previous value: 16
+
+Parsing design file '../src/design/sramArray.v'
+
+Warning-[TMR] Text macro redefined
+../src/design/sramArray.v, 3
+  Text macro (inputWeightWidth) is redefined. The last definition will 
+  override previous ones.
+  Location of previous definition: ../src/design/lenet/mul25_4convolutor.v, 7.
+  Previous value: 5*5*8 
+
+
+Warning-[TMR] Text macro redefined
+../src/design/sramArray.v, 4
+  Text macro (inputMapWidth) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: ../src/design/lenet/mul25_4convolutor.v, 6.
+  Previous value: 6*6*8 
+
+
+Warning-[TMR] Text macro redefined
+../src/design/sramArray.v, 5
+  Text macro (DATA_SIZE) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: ../src/design/lenet/reluPool.v, 4.
+  Previous value: 8
+
+Parsing design file '../src/design/uart_codec/rx_buffer.v'
+Parsing design file '../src/design/uart_codec/tx_buffer.v'
+Parsing design file '../src/design/uart_codec/uart_codec_top.v'
+Parsing design file '../src/design/uart_codec/uart_rx.v'
+Parsing design file '../src/design/uart_codec/uart_tx.v'
+Parsing design file '../src/flash_read/data_concat.v'
+Parsing design file '../src/flash_read/data_loader_top.v'
+Parsing design file '../src/flash_read/data_load_ctrl.v'
+Parsing design file '../src/flash_read/flash_read_ctrl.v'
+Parsing design file '../src/flash_read/key_filter.v'
+Parsing design file '../src/sram/sram464x144.v'
+Parsing design file '../src/sram/sram520x104.v'
+Parsing design file '../tb/uart_rx_tb.v'
+Parsing design file '../tb/v_model/W25Q128JVxIM.v'
+Top Level Modules:
+       tx_buffer
+       sram464x144_error_injection
+       sram520x104_error_injection
+       uart_rx_tb
+TimeScale is 1 ps / 1 ps
+VCS Coverage Metrics Release O-2018.09-1_Full64 Copyright (c) 1991-2018 by Synopsys Inc.
+***** Warning: +memcbk/-debug_access will not enable toggle coverage on MDAs.  Please use -cm_tgl mda to enable it.
+Starting vcs inline pass...
+15 modules and 0 UDP read.
+	However, due to incremental compilation, no re-compilation is necessary.
+make[1]: Entering directory '/home/ICer/Desktop/Projects/Lenet_Fukami_competition/sim/csrc' \
+
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared  -Bsymbolic  -o .//../uart_rx_tb.daidir//_csrc0.so objs/amcQw_d.o 
+rm -f _csrc0.so
+if [ -x ../uart_rx_tb ]; then chmod -x ../uart_rx_tb; fi
+g++  -o ../uart_rx_tb    -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/uart_rx_tb.daidir/ \
+-Wl,-rpath=./uart_rx_tb.daidir/ -Wl,-rpath='$ORIGIN'/uart_rx_tb.daidir//scsim.db.dir \
+-rdynamic -rdynamic  -Wl,-rpath=/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib -L/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib \
+_33584_archive_1.so _prev_archive_1.so _csrc0.so  SIM_l.o  _csrc0.so     rmapats_mop.o \
+rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o          -lzerosoft_rt_stubs \
+-lvirsim -lerrorinf -lsnpsmalloc -lvfs /home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/linux64/pli.a \
+-lvcsnew -lsimprofile -lreader_common /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libBA.a \
+-luclinative /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcs_tls.o   -Wl,-whole-archive \
+-lvcsucli -Wl,-no-whole-archive        _vcs_pli_stub_.o   /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcs_save_restore_new.o \
+-ldl -lm  -lc -lpthread -ldl 
+../uart_rx_tb up to date
+make[1]: Leaving directory '/home/ICer/Desktop/Projects/Lenet_Fukami_competition/sim/csrc' \
+
+CPU time: 2.680 seconds to compile + .730 seconds to elab + .223 seconds to link

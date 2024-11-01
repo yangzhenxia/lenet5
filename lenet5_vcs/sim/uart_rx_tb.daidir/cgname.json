@@ -1,0 +1,104 @@
+{
+    "fc_classify": [
+        "fc_classify",
+        "YaBwi",
+        "module",
+        6
+    ],
+    "sram520x104": [
+        "sram520x104",
+        "U09qW",
+        "module",
+        13
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "multi": [
+        "multi",
+        "WuJaK",
+        "module",
+        7
+    ],
+    "add": [
+        "add",
+        "GNaSz",
+        "module",
+        2
+    ],
+    "sram464x144": [
+        "sram464x144",
+        "abikU",
+        "module",
+        11
+    ],
+    "convPool2": [
+        "convPool2",
+        "ba3cj",
+        "module",
+        3
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        17
+    ],
+    "conv_mul_add_array": [
+        "conv_mul_add_array",
+        "QRWkG",
+        "module",
+        4
+    ],
+    "fc": [
+        "fc",
+        "mwqZq",
+        "module",
+        5
+    ],
+    "tx_buffer": [
+        "tx_buffer",
+        "aJu7B",
+        "module",
+        8
+    ],
+    "uart_codec_top": [
+        "uart_codec_top",
+        "WjBY8",
+        "module",
+        9
+    ],
+    "W25Q128JVxIM": [
+        "W25Q128JVxIM",
+        "idhj3",
+        "module",
+        16
+    ],
+    "data_loader_top": [
+        "data_loader_top",
+        "gzNZ9",
+        "module",
+        10
+    ],
+    "sram464x144_error_injection": [
+        "sram464x144_error_injection",
+        "hUuq1",
+        "module",
+        12
+    ],
+    "sram520x104_error_injection": [
+        "sram520x104_error_injection",
+        "rEkQU",
+        "module",
+        14
+    ],
+    "uart_rx_tb": [
+        "uart_rx_tb",
+        "dZJag",
+        "module",
+        15
+    ]
+}

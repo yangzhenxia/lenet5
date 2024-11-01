@@ -1,0 +1,3 @@
+Command Line: /home/synopsys/verdi/Verdi_O-2018.09-SP2/platform/LINUXAMD64/bin/Novas -sv -f ./filelist.f -top uart_rx_tb -ssf uart_rx_tb.fsdb
+uname(Linux IC_EDA 3.10.0-1160.53.1.el7.x86_64 #1 SMP Fri Jan 14 13:59:45 UTC 2022 x86_64)
+au time 266.815803 7.683560 12.888203 delta 642965504 642965504 total 1068048384 1068048384

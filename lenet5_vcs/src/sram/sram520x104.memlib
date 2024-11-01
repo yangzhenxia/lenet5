@@ -1,0 +1,228 @@
+/* logicvision_memcomp Version: 4.0.5-EAC1 */
+/* common_memcomp Version: 4.0.5-beta22 */
+/* lang compiler Version: 4.1.6-beta1 Jul 19 2012 13:55:19 */
+//
+//       CONFIDENTIAL AND PROPRIETARY SOFTWARE OF ARM PHYSICAL IP, INC.
+//      
+//       Copyright (c) 1993 - 2022 ARM Physical IP, Inc.  All Rights Reserved.
+//      
+//       Use of this Software is subject to the terms and conditions of the
+//       applicable license agreement with ARM Physical IP, Inc.
+//       In addition, this Software is protected by patents, copyright law 
+//       and international treaties.
+//      
+//       The copyright notice(s) in this Software does not indicate actual or
+//       intended publication of this Software.
+//
+//      logicvision model for Synchronous Single-Port Register File
+//
+//      Instance Name:              sram520x104
+//      Words:                      520
+//      Bits:                       104
+//      Mux:                        4
+//      Drive:                      6
+//      Write Mask:                 Off
+//      Extra Margin Adjustment:    On
+//      Redundant Rows:             0
+//      Redundant Columns:          0
+//      Test Muxes                  Off
+//
+//      Creation Date:  Tue Nov 15 11:44:15 2022
+//      Version: 	r1p1
+//
+//      Modeling Assumptions: 
+//
+//      Modeling Limitations: None
+//
+//      Known Bugs: None.
+//
+//      Known Work Arounds: N/A
+//
+MemoryTemplate (sram520x104) {
+	Algorithm : SmarchChkbvcd;
+	DataOutStage : None;
+	LogicalPorts : 1RW;
+	BitGrouping : 1;
+	MemoryType : SRAM;
+	MinHold : 0.5;
+	OperationSet : Sync;
+	SelectDuringWriteThru : Off;
+	ShadowRead : Off;
+	ShadowWrite : Off;
+        TransparentMode : None;
+	CellName : sram520x104;
+	NumberOfWords : 520;
+	AddressCounter{
+		Function (Address) {
+			LogicalAddressMap{
+				ColumnAddress[1:0] : Address[1:0];
+				RowAddress[7:0] : Address[9:2];
+			}
+		}
+		Function (ColumnAddress) {
+			CountRange [0:3];
+			}
+		Function (RowAddress) {
+			CountRange [0:129];
+		}
+	}
+	PhysicalAddressMap{
+		ColumnAddress[0] : c[0];
+		ColumnAddress[1] : c[1];
+		RowAddress[0] : r[0];
+		RowAddress[1] : r[1];
+		RowAddress[2] : r[2];
+		RowAddress[3] : r[3];
+		RowAddress[4] : r[4];
+		RowAddress[5] : r[5];
+		RowAddress[6] : r[6];
+		RowAddress[7] : r[7];
+	}
+	PhysicalDataMap{
+		Data[0] : NOT d[0];
+		Data[1] : NOT d[1];
+		Data[2] : NOT d[2];
+		Data[3] : NOT d[3];
+		Data[4] : NOT d[4];
+		Data[5] : NOT d[5];
+		Data[6] : NOT d[6];
+		Data[7] : NOT d[7];
+		Data[8] : NOT d[8];
+		Data[9] : NOT d[9];
+		Data[10] : NOT d[10];
+		Data[11] : NOT d[11];
+		Data[12] : NOT d[12];
+		Data[13] : NOT d[13];
+		Data[14] : NOT d[14];
+		Data[15] : NOT d[15];
+		Data[16] : NOT d[16];
+		Data[17] : NOT d[17];
+		Data[18] : NOT d[18];
+		Data[19] : NOT d[19];
+		Data[20] : NOT d[20];
+		Data[21] : NOT d[21];
+		Data[22] : NOT d[22];
+		Data[23] : NOT d[23];
+		Data[24] : NOT d[24];
+		Data[25] : NOT d[25];
+		Data[26] : NOT d[26];
+		Data[27] : NOT d[27];
+		Data[28] : NOT d[28];
+		Data[29] : NOT d[29];
+		Data[30] : NOT d[30];
+		Data[31] : NOT d[31];
+		Data[32] : NOT d[32];
+		Data[33] : NOT d[33];
+		Data[34] : NOT d[34];
+		Data[35] : NOT d[35];
+		Data[36] : NOT d[36];
+		Data[37] : NOT d[37];
+		Data[38] : NOT d[38];
+		Data[39] : NOT d[39];
+		Data[40] : NOT d[40];
+		Data[41] : NOT d[41];
+		Data[42] : NOT d[42];
+		Data[43] : NOT d[43];
+		Data[44] : NOT d[44];
+		Data[45] : NOT d[45];
+		Data[46] : NOT d[46];
+		Data[47] : NOT d[47];
+		Data[48] : NOT d[48];
+		Data[49] : NOT d[49];
+		Data[50] : NOT d[50];
+		Data[51] : NOT d[51];
+		Data[52] : d[52];
+		Data[53] : d[53];
+		Data[54] : d[54];
+		Data[55] : d[55];
+		Data[56] : d[56];
+		Data[57] : d[57];
+		Data[58] : d[58];
+		Data[59] : d[59];
+		Data[60] : d[60];
+		Data[61] : d[61];
+		Data[62] : d[62];
+		Data[63] : d[63];
+		Data[64] : d[64];
+		Data[65] : d[65];
+		Data[66] : d[66];
+		Data[67] : d[67];
+		Data[68] : d[68];
+		Data[69] : d[69];
+		Data[70] : d[70];
+		Data[71] : d[71];
+		Data[72] : d[72];
+		Data[73] : d[73];
+		Data[74] : d[74];
+		Data[75] : d[75];
+		Data[76] : d[76];
+		Data[77] : d[77];
+		Data[78] : d[78];
+		Data[79] : d[79];
+		Data[80] : d[80];
+		Data[81] : d[81];
+		Data[82] : d[82];
+		Data[83] : d[83];
+		Data[84] : d[84];
+		Data[85] : d[85];
+		Data[86] : d[86];
+		Data[87] : d[87];
+		Data[88] : d[88];
+		Data[89] : d[89];
+		Data[90] : d[90];
+		Data[91] : d[91];
+		Data[92] : d[92];
+		Data[93] : d[93];
+		Data[94] : d[94];
+		Data[95] : d[95];
+		Data[96] : d[96];
+		Data[97] : d[97];
+		Data[98] : d[98];
+		Data[99] : d[99];
+		Data[100] : d[100];
+		Data[101] : d[101];
+		Data[102] : d[102];
+		Data[103] : d[103];
+	}
+	Port (A[9:0]) {
+		Function : Address;
+	}
+	Port (D[103:0]) {
+		Function : Data;
+		Direction : input;
+	}
+	Port (Q[103:0]) {
+		Function : Data;
+		Direction : output;
+	}
+	Port (WEN) {
+		Function : WriteEnable;
+		Polarity : ActiveLow;
+	}
+	Port (CEN) {
+		Function : Select;
+		Polarity : ActiveLow;
+	}
+	Port (CLK) {
+		Function : Clock;
+		Polarity : ActiveHigh;
+	}
+	Port (EMA[2:0]) {
+		Function : None;
+		SafeValue : 0;
+		Direction : Input;
+		Polarity : ActiveHigh;
+	}
+	Port (EMAW[1:0]) {
+		Function : None;
+		SafeValue : 0;
+		Direction : Input;
+		Polarity : ActiveHigh;
+	}
+	port (RET1N){
+		Function : None;
+		Direction : Input;
+		SafeValue : 1;
+		Polarity : Activelow;
+	}
+}

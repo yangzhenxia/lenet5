@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE cov SYSTEM "ucdb_srcinfo.dtd">
+  <srcinfo name="/home/ICer/Desktop/Projects/Lenet_Fukami_competition/sim"  >
+    <ucapi_version  major_ver="13"  minor_ver="1"  patch_str="O-2018.09-1"  />
+      <fileinfo name="../src/design/controler.v"  id="0"  />
+      <fileinfo name="../src/design/fpga_top_with_uart.v"  id="1"  />
+      <fileinfo name="../src/design/lenet/add.v"  id="2"  />
+      <fileinfo name="../src/design/lenet/convPoo1.v"  id="3"  />
+      <fileinfo name="../src/design/lenet/convPool2.v"  id="4"  />
+      <fileinfo name="../src/design/lenet/conv_mul_add_array.v"  id="5"  />
+      <fileinfo name="../src/design/lenet/fc.v"  id="6"  />
+      <fileinfo name="../src/design/lenet/fcMacArray.v"  id="7"  />
+      <fileinfo name="../src/design/lenet/fcRes_classify.v"  id="8"  />
+      <fileinfo name="../src/design/lenet/lenetTop.v"  id="9"  />
+      <fileinfo name="../src/design/lenet/mul.v"  id="10"  />
+      <fileinfo name="../src/design/lenet/mul25_4convolutor.v"  id="11"  />
+      <fileinfo name="../src/design/lenet/mul7_4.v"  id="12"  />
+      <fileinfo name="../src/design/lenet/multi.v"  id="13"  />
+      <fileinfo name="../src/design/lenet/reluPool.v"  id="14"  />
+      <fileinfo name="../src/design/lenet/reluPoolcov2.v"  id="15"  />
+      <fileinfo name="../src/design/sramArray.v"  id="16"  />
+      <fileinfo name="../src/design/uart_codec/rx_buffer.v"  id="17"  />
+      <fileinfo name="../src/design/uart_codec/tx_buffer.v"  id="18"  />
+      <fileinfo name="../src/design/uart_codec/uart_codec_top.v"  id="19"  />
+      <fileinfo name="../src/design/uart_codec/uart_rx.v"  id="20"  />
+      <fileinfo name="../src/design/uart_codec/uart_tx.v"  id="21"  />
+      <fileinfo name="../src/flash_read/data_concat.v"  id="22"  />
+      <fileinfo name="../src/flash_read/data_loader_top.v"  id="23"  />
+      <fileinfo name="../src/flash_read/data_load_ctrl.v"  id="24"  />
+      <fileinfo name="../src/flash_read/flash_read_ctrl.v"  id="25"  />
+      <fileinfo name="../src/flash_read/key_filter.v"  id="26"  />
+      <fileinfo name="../src/sram/sram464x144.v"  id="27"  />
+      <fileinfo name="../src/sram/sram520x104.v"  id="28"  />
+      <fileinfo name="../tb/uart_rx_tb.v"  id="29"  />
+      <fileinfo name="../tb/v_model/W25Q128JVxIM.v"  id="30"  />
+    </srcinfo>

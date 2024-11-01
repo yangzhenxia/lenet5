@@ -1,0 +1,193 @@
+0 
+45
+
++cli+1
++itf+/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcsdp.tab
++memcbk
++nospecify
++v2k
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/home/synopsys/vcs-mx/O-2018.09-1/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic -rdynamic
+-Mobjects= /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libvirsim.so /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/liberrorinf.so /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libsnpsmalloc.so /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libvfs.so /home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/linux64/pli.a
+-Mout=uart_rx_tb
+-Msaverestoreobj=/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl -lm
+-Mupdate
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/synopsys/vcs-mx/O-2018.09-1/include
+-P
+-Xcbug=0x1
+-cm
+-cm_dir
+-cm_name
+-debug=1
+-f ./filelist.f
+-full64
+-gen_obj
+-l
+-o uart_rx_tb
+-picarchive
+-sverilog
+-timescale=1ns/1ns
+./uart_rx_tb.vdb
+/home/synopsys/vcs-mx/O-2018.09-1/linux64/bin/vcs1
+/home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/linux64/novas.tab
+compile.log
+line+cond+fsm+branch+tgl
+uart_rx_tb
+100
+sysc_uni_pwd=/home/ICer/Desktop/Projects/Lenet_Fukami_competition/sim
+_CE_M=
+_CE_CONDA=
+XMODIFIERS=@im=ibus
+XILINX_VIVADO=/home/Xilinx/Vivado/2019.1
+XDG_VTNR=1
+XDG_SESSION_TYPE=x11
+XDG_SESSION_ID=1
+XDG_SESSION_DESKTOP=gnome-classic
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/home/ICer/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/
+XDG_CURRENT_DESKTOP=GNOME-Classic:GNOME
+XAUTHORITY=/run/gdm/auth-for-ICer-hyT0U8/database
+WINDOWPATH=1
+VTE_VERSION=5204
+VMR_MODE_FLAG=64
+VERDI_HOME=/home/synopsys/verdi/Verdi_O-2018.09-SP2
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=compile.log
+VCS_HOME=/home/synopsys/vcs-mx/O-2018.09-1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+USERNAME=ICer
+UNAME=/bin/uname
+TOOL_HOME=/home/synopsys/vcs-mx/O-2018.09-1/linux64
+SYNPLIFY_HOME=/home/synopsys/fpga/N-2018.03-SP1
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_PID=3310
+SPYGLASS_HOME=/home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/
+SPECMAN_HOME=/home/cadence/INCISIVE152/components/sn
+SPECMAN_DIR=/home/cadence/INCISIVE152/components/sn/
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/3176,unix/unix:/tmp/.ICE-unix/3176
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+SCL_HOME=/home/synopsys/scl/2018.06
+RISCV=/home/Riscv_Tools
+QUESTASIM_HOME=/home/mentor/questasim
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+QT_IM_MODULE=ibus
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib/qt-3.3/lib
+QTINC=/usr/lib/qt-3.3/include
+QTDIR=/usr/lib/qt-3.3
+QEMU_HOME=/home/Riscv_Tools/riscv-gnu-toolchain/qemu-6.0.0
+PT_HOME=/home/synopsys/pts/O-2018.06-SP1
+OVA_UUM=0
+OUTPUT=uart_rx_tb
+MMSIMHOME=/home/cadence/MMSIM151
+MGLS_LICENSE_FILE=/home/mentor/questasim/mentor.dat
+MGC_LICENSE_FILE=/home/mentor//license/license.dat
+MGC_HOME=/home/mentor/
+MGC_CALIBRE_SCHEMATIC_SERVER=IC_EDA:9199
+MGC_CALIBRE_LAYOUT_SERVER=IC_EDA:9189
+MFLAGS=
+MAKE_TERMOUT=/dev/pts/1
+MAKE_TERMERR=/dev/pts/1
+MAKELEVEL=1
+MAKEFLAGS=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_TIME=en_US.UTF-8
+LC_PAPER=en_US.UTF-8
+LC_NUMERIC=en_US.UTF-8
+LC_MONETARY=en_US.UTF-8
+LC_MEASUREMENT=en_US.UTF-8
+LC_HOME=/home/synopsys/lc/O-2018.06-SP1
+LC_ALL=C
+KDEDIRS=/usr
+INCISIVE_HOME=/home/cadence/INCISIVE152
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+ICC2_HOME=/home/synopsys/icc2/O-2018.06-SP1
+HISTCONTROL=ignoredups
+GNOME_TERMINAL_SERVICE=:1.137
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/c13d1647_094b_405d_8c6b_5c0426b5359f
+GNOME_SHELL_SESSION_MODE=classic
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDM_LANG=en_US.UTF-8
+GDMSESSION=gnome-classic
+DVE_HOME=/home/synopsys/vcs-mx/O-2018.09-1
+DESKTOP_SESSION=gnome-classic
+DC_HOME=/home/synopsys/syn/O-2018.06-SP1
+DBUS_STARTER_BUS_TYPE=session
+DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-Pi66iar9d1,guid=4fd27983f2f16046283571f765866da2
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Pi66iar9d1,guid=4fd27983f2f16046283571f765866da2
+CONDA_SHLVL=1
+CONDA_PYTHON_EXE=/home/ICer/miniconda3/bin/python
+CONDA_PROMPT_MODIFIER=(base) 
+CONDA_PREFIX=/home/ICer/miniconda3
+CONDA_EXE=/home/ICer/miniconda3/bin/conda
+CONDA_DEFAULT_ENV=base
+COLORTERM=truecolor
+CDS_LIC_FILE=/home/cadence/license/cadence.dat
+CDSHOME=/home/cadence/IC617
+CALIBRE_HOME=/home/mentor//Calibre2015/aoi_cal_2015.2_36.27
+CADHOME=/home/cadence
+0
+35
+1668659543 ../tb/v_model/W25Q128JVxIM.v
+1668659674 ../tb/uart_rx_tb.v
+1668483706 ../src/sram/sram520x104.v
+1668483655 ../src/sram/sram464x144.v
+1668520579 ../src/flash_read/key_filter.v
+1668671430 ../src/flash_read/flash_read_ctrl.v
+1668677743 ../src/flash_read/data_load_ctrl.v
+1668515731 ../src/flash_read/data_loader_top.v
+1668649319 ../src/flash_read/data_concat.v
+1665552234 ../src/design/uart_codec/uart_tx.v
+1665552234 ../src/design/uart_codec/uart_rx.v
+1668244111 ../src/design/uart_codec/uart_codec_top.v
+1665552234 ../src/design/uart_codec/tx_buffer.v
+1668244112 ../src/design/uart_codec/rx_buffer.v
+1669108737 ../src/design/sramArray.v
+1667024402 ../src/design/lenet/reluPoolcov2.v
+1667448824 ../src/design/lenet/reluPool.v
+1666272820 ../src/design/lenet/multi.v
+1665380164 ../src/design/lenet/mul7_4.v
+1666881688 ../src/design/lenet/mul25_4convolutor.v
+1665399945 ../src/design/lenet/mul.v
+1668677334 ../src/design/lenet/lenetTop.v
+1667378231 ../src/design/lenet/fcRes_classify.v
+1668678841 ../src/design/lenet/fcMacArray.v
+1668677038 ../src/design/lenet/fc.v
+1668676019 ../src/design/lenet/conv_mul_add_array.v
+1668677001 ../src/design/lenet/convPool2.v
+1668678765 ../src/design/lenet/convPoo1.v
+1666264316 ../src/design/lenet/add.v
+1669274965 ../src/design/fpga_top_with_uart.v
+1668676920 ../src/design/controler.v
+1539412481 /home/synopsys/vcs-mx/O-2018.09-1/include/cm_vcsd.tab
+1669274829 ./filelist.f
+1539400757 /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcsdp.tab
+1550753332 /home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/linux64/novas.tab
+5
+1539402341 /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libvirsim.so
+1539401183 /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/liberrorinf.so
+1539401125 /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libsnpsmalloc.so
+1539401175 /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libvfs.so
+1550752033 /home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/linux64/pli.a
+1716869639 uart_rx_tb.daidir
+-1 partitionlib
